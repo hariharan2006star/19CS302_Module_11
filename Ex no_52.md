@@ -1,22 +1,26 @@
-## TASK
+
+
+# Task:
 
 ## Write a function int max_of_four(int a, int b, int c, int d) which reads four arguments and returns the greatest of them.
 
-## Note
+## Note:
+
 There is not built in max function in C. Code that will be reused is often put in a separate function, e.g. int max(x, y) that returns the greater of the two values.
 
-## Input Format
+## Input Format:
+
 Input will contain four integers - a,b,c,d , one on each line.
 
-## Output Format
+## Output Format:
+
 Print the greatest of the four integers.
 Note: I/O will be automatically handled.
-
 ## AIM:
  To write a function int max_of_four(int a, int b, int c, int d) which reads four arguments and returns the greatest of them.
- 
  ## Algorithm:
-1. Start 
+
+1. **Start**  
 2. Accept four integer inputs: `a`, `b`, `c`, and `d`.  
 3. Initialize `max` with `a`.  
 4. Compare `max` with `b`:  
@@ -26,10 +30,13 @@ Note: I/O will be automatically handled.
 6. Compare `max` with `d`:  
    - If `d` is greater than `max`, update `max = d`.  
 7. Return `max` as the largest number.  
-8. End 
+8. **End**  
 
-## Program:
-```
+
+ 
+
+## PROGRAM:
+```c program
 #include<stdio.h>
 int compare(int a[4])
 {
@@ -50,8 +57,7 @@ int main()
     printf("%d",d);
 }
 ```
-## output:
-![Screenshot 2025-05-08 095156](https://github.com/user-attachments/assets/b4a53608-6aeb-4686-a138-3d5d65ad515e)
-
-## Result:
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/aba6d6ba-c7c3-4607-9f04-a740cafd9845)
+## RESULT:
 Thus, the program is executed and verified successfully.
